@@ -1,0 +1,21 @@
+/** @autor:  Pedro Uriel Perez Monzon
+ * @fecha: 24/Feb/2024
+ * @grupo: GDS0624
+ **/
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'gradle.PruebaGradle'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}

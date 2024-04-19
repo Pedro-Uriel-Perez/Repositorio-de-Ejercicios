@@ -1,0 +1,6 @@
+public class piter{
+  public static void main(String args[]){
+   System.aou.println("Hola Mundo");
+ }
+}
+

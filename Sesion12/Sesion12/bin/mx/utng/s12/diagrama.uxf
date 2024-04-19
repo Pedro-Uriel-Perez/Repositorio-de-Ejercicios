@@ -1,0 +1,9 @@
+<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLClass</id><coordinates><x>299</x><y>390</y><w>156</w><h>39</h></coordinates><panel_attributes>Venado</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>52</x><y>156</y><w>130</w><h>39</h></coordinates><panel_attributes>/Animal/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>546</x><y>39</y><w>104</w><h>117</h></coordinates><panel_attributes>Hervivoro
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>416</x><y>104</y><w>234</w><h>312</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Se comporta como</panel_attributes><additional_attributes>100;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>91</x><y>182</y><w>325</w><h>234</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Es un</panel_attributes><additional_attributes>10;10;230;160</additional_attributes></element><element><id>UMLClass</id><coordinates><x>455</x><y>663</y><w>169</w><h>65</h></coordinates><panel_attributes>Polimorfismo
+--
+_+main(String[]):void_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>338</x><y>416</y><w>286</w><h>273</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;200;190</additional_attributes></element><element><id>Relation</id><coordinates><x>65</x><y>182</y><w>416</w><h>533</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;300;390</additional_attributes></element><element><id>Relation</id><coordinates><x>611</x><y>104</y><w>52</w><h>611</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>20;10;10;450</additional_attributes></element></diagram>

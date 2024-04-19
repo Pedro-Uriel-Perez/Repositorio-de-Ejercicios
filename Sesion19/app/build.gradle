@@ -1,0 +1,10 @@
+plugins{
+    id 'java'
+
+}
+
+jar{
+    manifest{
+        attributes 'Main-Class' 'mx.utng.Sesion19.App'
+}
+}

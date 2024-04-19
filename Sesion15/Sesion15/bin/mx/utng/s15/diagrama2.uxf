@@ -1,0 +1,49 @@
+<diagram program="umletino" version="15.1"><zoom_level>15</zoom_level><help_text>A</help_text><element><id>UMLClass</id><coordinates><x>45</x><y>60</y><w>195</w><h>120</h></coordinates><panel_attributes>Archivo
+--
+
+--
+_+main(String[]):void_
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>495</x><y>90</y><w>240</w><h>195</h></coordinates><panel_attributes>c:/temps/cursos
+--
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>525</x><y>135</y><w>105</w><h>90</h></coordinates><panel_attributes>//Controll over the text of the whole element..
+_umletcode=
+var className = "Book"; 
+
+// draw book
+drawArc(10,10,20,10,0,180,true)  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawArc(30,10,20,10,0,180,true)  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawLine(30, 13, 30, 40)
+drawArc(30,37,20,10,0,180,false, {bg: 'black'})  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawArc(10,37,20,10,0,180,false, {bg: 'black'})  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawLine(10, 13, 10, 40)
+drawLine(50, 13, 50, 40)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>495</y><w>255</w><h>315</h></coordinates><panel_attributes>//Controll over the text of the whole element..
+_umletcode=
+var className = "Book"; 
+var members = ["-title: String", "-authors: String[]", "+getTitle(): String", "+getAuthors(): String[]", "+addAuthor(name)"];
+
+var publicAttributesDrawConfig = {fg: '#006400'}
+var privateAttributesDrawConfig = {fg: '#8b0000'}
+
+drawText(className, width/2, 40, center);
+drawLine(0, 50, width, 50);
+var membersHeight=75;
+for (var i=0;i&lt;members.length;i++) {
+   if(members[i][0]=='+'){	
+		drawText(members[i], width/2, membersHeight, center, publicAttributesDrawConfig );
+   } else if(members[i][0]=='-') {
+   	drawText(members[i], width/2, membersHeight, center, privateAttributesDrawConfig);
+   }
+	membersHeight+=30;
+}
+
+// draw book
+drawArc(10,10,20,10,0,180,true)  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawArc(30,10,20,10,0,180,true)  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawLine(30, 13, 30, 40)
+drawArc(30,37,20,10,0,180,false, {bg: 'black'})  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawArc(10,37,20,10,0,180,false, {bg: 'black'})  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawLine(10, 13, 10, 40)
+drawLine(50, 13, 50, 40)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>165</y><w>405</w><h>75</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>250;30;10;10</additional_attributes></element></diagram>

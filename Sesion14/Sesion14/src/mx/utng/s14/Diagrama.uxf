@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>66</x><y>44</y><w>242</w><h>176</h></coordinates><panel_attributes>Libro
+
+--
+
+-TITULO.String
+-proridad:int
+--
+&lt;&lt;Contructor&gt;&gt; Libro(String,priridad)
++getTITULO():String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>561</x><y>66</y><w>154</w><h>99</h></coordinates><panel_attributes>Comparable
+--
+compareTO(Objet):int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>528</x><y>297</y><w>187</w><h>99</h></coordinates><panel_attributes>LibroTest
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>297</x><y>143</y><w>341</w><h>176</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;290;140</additional_attributes></element><element><id>Relation</id><coordinates><x>297</x><y>88</y><w>297</w><h>44</h></coordinates><panel_attributes>lt=&lt;&lt;.
+ComparteTo(Libro)</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element></diagram>
